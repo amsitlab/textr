@@ -1,0 +1,14 @@
+# This script created by commandex
+# Do not edit it if you not experince
+
+## PROJECT STATUS FILE ##
+
+APP=textr
+PKG=amsitlab.textr
+APPPATH=/data/data/com.termux/files/home/workspace/java/textr
+STARTED=1
+COMPILED=1
+BUILDING=1
+DEBIAN=0
+
+

@@ -1,0 +1,42 @@
+# This file created by commandex
+
+# CONFIGURATION FILE
+
+# for "ecj_compile_target" and "ecj_compile_source" see:
+# https://help.eclipse.org/neon/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Ftasks%2Ftask-using_batch_compiler.htm
+
+
+ecj_compile_target=1.5
+ecj_compile_source=1.5
+
+# change it to 0 for disable ecj warning
+# value must be 0 or 1 default 1
+ecj_compile_warning=1
+
+# change it to 0 for disable ecj error
+# value must be 0 or 1 default 1
+ecj_compile_error=1
+
+# change it to 0 for disable ecj verbose
+# value must be 0 or 1 default 1
+ecj_compile_verbose=1
+
+# change it to 0 for disable dx error
+# value must be 0 or 1 default 1
+dx_compile_error=1
+
+# change it to 0 for disable dx verbose
+# value must be 0 or 1 default 1
+dx_compile_verbose=1
+
+# change it to 1 for enable dx optimize
+# value must be 0 or 1 default 0
+dx_compile_optimize=0
+
+# change it to 1 for build core library
+# value must be 0 or 1 default 0
+dx_compile_library=0
+
+# change ito 0 for disable compile before jar/dexing
+# value must be 0 or 1 default 1
+compile_before_dexing=1

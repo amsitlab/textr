@@ -1,0 +1,18 @@
+// This a comment
+// The comment like single line comment of C family laguage.
+// For see result , run  by typing:
+//	./textr --sleep 100 --file example/file.textr
+
+Hallo,
+How are you? 
+Are you fine?
+(@yellow)What is yourname?(@end)
+(@red)I'm red(@end)
+(@green)I'm green(@end)
+(@yellow)I'm yellow(@end)
+(@blue)I'm blue(@end)
+(@magenta)I'm magenta(@end)
+(@cyan)I'm cyan(@end)
+%nI'm newline
+%tI'm tab
+
