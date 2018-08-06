@@ -48,7 +48,7 @@ public class TextRunner implements Runnable
 
 
 	/**
-	 * Clnstructor
+	 * Constructor
 	 *
 	 * @param java.util.List<String> textList
 	 * @param long sleep
@@ -135,7 +135,7 @@ public class TextRunner implements Runnable
 
 
 	/**
-	 * Formatting/Replacing text contents before rendered.
+	 * Formatting/Replacing text contents before render.
 	 *
 	 * @return java.lang.String
 	 */

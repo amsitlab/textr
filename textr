@@ -2,7 +2,7 @@
 
 _dalvikvm=/data/data/com.termux/files/usr/bin/dalvikvm
 _tmpdir=/data/data/com.termux/files/usr/tmp
-_classpath=/data/data/com.termux/files/home/workspace/java/textr/bin/textr.jar
+_classpath=${PWD}/bin/textr.jar
 _main_class=amsitlab.textr.App
 
 unset LD_LIBRARY_PATH LD_PRELOAD

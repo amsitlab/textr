@@ -2,13 +2,12 @@
 A simple text runner for [Termux](https://termux.net) App.
 
 ### Jump To
-* [Install](#Install)
-* [Run](#Run)
-* [Buildwith](#Builtwith)
-* [Author](#Author)
+* [Install](#install)
+* [Run](#run)
+* [Builtwith](#builtwith)
 
 
-### Inatall
+### Install
 
 ```bash
 git clone https://github.com/amsitlab/textr
@@ -35,4 +34,5 @@ textr --sleep 100 --file example/file.textr
 ### Builtwith
 * [Picocli](https://github.com/remkop/picocli)
 * [commandex](https://amsitlab.github.io/) simple project builder for creating dex executable program by me.
+
 

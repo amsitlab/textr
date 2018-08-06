@@ -46,7 +46,7 @@ public class App implements Runnable
 	/**
 	 * Debug mode.
 	 */
-	public static final boolean DEBUG = true;
+	public static final boolean DEBUG = false;
 
 
 	/**
@@ -130,7 +130,7 @@ public class App implements Runnable
 			e.printStackTrace();
 		} else {
 			System.err.println("Unknown error.\n"
-				+ "Please contact autor.\n"
+				+ "Please contact author.\n"
 				+ "\tEmail\t: dezavue3@gmail.com\n"
 				+ "\tTele \t: @dezavue");
 		}
