@@ -74,6 +74,17 @@ public class App implements Runnable
 	protected long time = 100;
 
 	 /**
+	  * Running text from stdout pipes
+	  *
+	  * @var boolean fromStdout
+	  */
+	 @Option(
+	 	names = {"--from-stdout"},
+		description = "Capture stdout and run text output"
+	)
+	protected boolean fromStdout;
+
+	 /**
 	  * Reading file contents and running text."
 	  *
 	  * @var java.lamg.String filename
@@ -93,9 +104,15 @@ public class App implements Runnable
 				new FileTextRunner(filename, time).run();
 			} catch(FileNotFoundException e) {
 				System.err.println(e.getMessage());
+				CommandLine.usage(this, System.err);
 			} catch(IOException e) {
 				App.error(e);
 			}
+		}
+		else if(fromStdout)
+		{
+			
+			new StdoutTextRunner(time).run();
 		}
 		else
 		{
@@ -124,10 +141,13 @@ public class App implements Runnable
 
 	 public static void error(Exception e)
 	 {
-		if(App.DEBUG && null != e)
+		if(App.DEBUG)
 		{
-			System.err.println(e.getMessage());
-			e.printStackTrace();
+			if(e != null)
+			{
+				System.err.println(e.getMessage());
+				e.printStackTrace();
+			}
 		} else {
 			System.err.println("Unknown error.\n"
 				+ "Please contact author.\n"
