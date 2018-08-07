@@ -2,3 +2,4 @@
 /textr_*.*_all/**
 /build-deb.bash
 /control
+/textr_tpl
